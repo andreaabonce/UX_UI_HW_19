@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navigation {
+    background-color: #44892a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    vertical-align: auto;
+}
+.navigation .logo {
+    width: 150px;
+    vertical-align:baseline;
+}
+.navigation .work-experience {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.content {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4caf4f66;
+}
+.section h2 {
+    color: #d2691e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.work-experience:hover {
+    background-color: #9ed77a;
+    color: black; ;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.experience-item {
+    background-color: #c1deb7;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.experience-item h4 {
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.footer {
+    text-align:center;
+    padding-right: 30px;
+    padding: 10px;
+    background-color: #0f5d23;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
