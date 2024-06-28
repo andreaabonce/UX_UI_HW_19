@@ -3,83 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Abonce - TaskTrick</title>
-    <link rel="stylesheet" href="Css/tt_style.css">
+    <title>UX/UI Homework 20</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/tt_style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/aa_logo.png" alt="Andrea Abonce Logo">
-            <h1>Andrea Abonce</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="../images/aa_logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Project Phases
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#overview">Overview</a>
+                            <a class="dropdown-item" href="#definition">Definition</a>
+                            <a class="dropdown-item" href="#research">Research</a>
+                            <a class="dropdown-item" href="#prototyping">Prototyping</a>
+                            <a class="dropdown-item" href="#user-testing-iterations">User Testing/Iterations</a>
+                            <a class="dropdown-item" href="#final-prototype">Final Prototype</a>
+                            <a class="dropdown-item" href="#conclusion">Conclusion</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="section" id="overview">
+            <div class="section-title">Overview/Summary</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/tticon.png" class="img-fluid" alt="TaskTrick Image">
+                    </div>
+                    <div class="col-md-8">
+                        <p><strong>About:</strong> TaskTrick is an app designed to help parents and kids complete chores as a family to help build a sense of responsibility in a fun and engaging way.</p>
+                        <p><strong>Responsibility:</strong> Group project. I helped with ideation, design, user flow, user testing, wireframes, and prototypes.</p>
+                        <p><strong>Timeline:</strong> 3-4 weeks</p>
+                        <p><strong>Tools:</strong></p>
+                        <ul>
+                        <img class="tools" src="images/tt_tools.png" alt="tools used to TaskTrick">
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="work-experience-button">Work Experience</button>
-    </header>
-    <main>
-        <h2>TaskTrick</h2>
-        <section class="overview-summary">
-            <h3>Overview/Summary</h3>
-            <img src="images/tticon.png" alt="TaskTrick">
-            <p>
-                <strong>Abstract:</strong> TaskTrick is an app designed to help students keep track of their tasks, improve productivity, and reduce procrastination. The app includes features such as task categorization, deadline reminders, and progress tracking.
-                <br><strong>Timeline:</strong> 4 months
-                <br><strong>Tools Used:</strong> Figma, ChatGPT, Google
-                <br><img src="images/tticons.png" alt="figma,chatgpt,google">
-            </p>
-        </section>
-        <section class="definition">
-            <h3>Definition</h3>
-            <img src="images/tt_definition.png" alt="Definition">
-            <p>
-                - Find out everyday struggles and create an app that helps solve this issue.
-                <br>- Aim for simplicity to engage a broader audience.
-                <br>- Focus on making children want to learn responsibly.
-            </p>
-        </section>
-        <section class="research">
-            <h3>Research</h3>
-            <img src="images/tt_research.png" alt="Research">
-            <p>
-                <strong>Methods:</strong> User interviews, surveys, and competitor analysis. We gathered insights from potential users to understand their pain points and preferences.
-                <br><strong>Timeline:</strong> 3 weeks
-            </p>
-        </section>
-        <section class="user-persona">
-            <h3>User Persona</h3>
-            <img src="images/tt_persona.png" alt="User Persona">
-        </section>
-        <section class="prototyping">
-            <h3>Prototyping</h3>
-            <img src="images/tt_sketch.png" alt="Prototyping">
-            <p>
-                We created paper prototypes of the application and tested them with potential users to gather feedback and iterate on the designs.
-            </p>
-        </section>
-        <section class="user-testing-iterations">
-            <h3>User Testing/Iterations</h3>
-            <img src="images/tt_error.png" alt="User Testing/Iterations">
-            <p>
-                <strong>Number of iterations:</strong> We went from low fidelity wireframes to high fidelity prototypes and tested them with users in each iteration.
-                <br>- Aim for simplicity to engage a broader audience.
-                <br>- Focus on making children want to learn responsibly.
-            </p>
-        </section>
-        <section class="final-prototype">
-            <h3>Final Prototype</h3>
-            <img src="images/tt_final.png" alt="Final Prototype">
-            <p>
-                <strong>Final Prototype:</strong> The final design of TaskTrick includes all the features discussed and validated through user testing.
-            </p>
-        </section>
-        <section class="conclusion">
-            <h3>Conclusion</h3>
-            <img src="images/conclusion.png" alt="Conclusion">
-            <p>
-                Completion and final testing with users. Final project report and presentation.
-            </p>
-        </section>
-    </main>
-    <footer>
-        <a href="https://www.linkedin.com/in/your-profile" class="linkedin-button">Let's Connect</a>
-    </footer>
+
+        <div class="section" id="definition">
+            <div class="section-title">Definition</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/definition.png" class="img-fluid" alt="Definition Image">
+                    </div>
+                    <div class="col-md-8">
+                <ul>
+                    <li>Find an engaging structure and create an app that can solve this issue.</li>
+                    <li>Parents struggle to engage children at home.</li>
+                    <li>It's important that children start to learn responsibility.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="research">
+            <div class="section-title">Research</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/tt_research.png" class="img-fluid" alt="Research Image">
+                    </div>
+                    <div class="col-md-8">
+                <p><strong>Method:</strong> User interviews, a survey, and competitor analysis.</p>
+                <p><strong>Distribution:</strong> Users were interviewed face-to-face and the survey was shared on the social media platforms of group members.</p>
+                <p><strong>Respondents:</strong></p>
+                <ul>
+                    <li>Interview: 6 interviewees</li>
+                    <li>Survey: 60 responses</li>
+                </ul>
+                <p><strong>Timeline:</strong> 3-4 weeks</p>
+            </div>
+        </div>
+
+        <div class="section" id="prototyping">
+            <div class="section-title">Prototyping</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/tt_sketch.png" class="img-fluid" alt="Sketches Image">
+                    </div>
+                    <div class="col-md-8">
+                <p>We created paper prototypes for all the screens of TaskTrick and after some analysis and testing, we turned these into Hi-Fi prototypes.</p>
+            </div>
+        </div>
+
+        <div class="section" id="user-testing-iterations">
+            <div class="section-title">User Testing/Iterations</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/tt_error.png" class="img-fluid" alt="Errors Image">
+                    </div>
+                    <div class="col-md-8">
+                <p><strong>Number of testers:</strong> we had 6 users test our prototype.</p>
+                <p><strong>Method:</strong> Go through a list of tasks and score them based on the success of completion.</p>
+                <p><strong>Iterations:</strong></p>
+                <ul>
+                    <li>Add a coaching screen</li>
+                    <li>Allow parents to see a kid's view</li>
+                    <li>Add a parent QR code button</li>
+                    <li>Fix the consistency of button sizes</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="final-prototype">
+            <div class="section-title">Final Prototype</div>
+            <div class="section-content">
+                <p>Dive into exploring the final TaskTrick Prototype<a href="https://www.figma.com/proto/H55F7uebYhRv8c1KiB0vpX/G2-P1-Wireframes?page-id=0%3A1&node-id=37-151&viewport=661%2C415%2C0.02&t=m51L1jIPxWTDH9ZD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=37%3A151&show-proto-sidebar=1">Here</a></p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="../images/final1.png" class="img-fluid" alt="Prototype Image 1">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="../images/final2.png" class="img-fluid" alt="Prototype Image 2">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="../images/final3.png" class="img-fluid" alt="Prototype Image 3">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="../images/final4.png" class="img-fluid" alt="Prototype Image 4">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="../images/final5.png" class="img-fluid" alt="Prototype Image 5">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="conclusion">
+            <div class="section-title">Conclusion</div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../images/conclusion.png" class="img-fluid" alt="Conclusion Image">
+                    </div>
+                <p>Completed some final testing with 5 users. Further changes to improve TaskTrick are:</p>
+                <ul>
+                    <li>Indicator to show how to change the first screen</li>
+                    <li>More elements for the rabbit</li>
+                    <li>Make QR codes match with the branding colors.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="myfooter">
+        <a href="https://www.linkedin.com/in/andrea-abonce" class="footer-link">Let's Connect on LinkedIn</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
